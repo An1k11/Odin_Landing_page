@@ -20,7 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 100vh;
+	height: 1700px;
 }
 
 .header-cont {
@@ -137,6 +137,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 20px;
 	background-color: #E5E7EB;
 	flex: 1;
 }
@@ -148,55 +149,66 @@ body {
 	width: 1000px;
 }
 
+.quote-authot-cont {
+	display: flex;
+	width: 1000px;
+	justify-content: flex-end;
+}
+
 .quote-author {
 	color: #1f2937;
 	font-size: 18px;
 	font-weight: bold;
+	width: fit-content;
 }
 
 .signup-button-2 {
-	background-color: rgb(54, 54, 255);
-	color: white;
-	border: none;
+	background-color: royalblue;
+	color: #E5E7EB;
+	border-color: #E5E7EB;
 	border-radius: 10px;
+	border-style: solid;
 	padding: 10px 20px;
 	width: fit-content;
 	font-weight: bold;
 	font-size: 18px;
-	margin-right: 120px;
+	margin-right: 100px;
 }
 
-.signup-cont {
+.signup-cont-main {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	background-color: #3882F6;
 	flex: 1;
 }
 
-.signup-text {
-	margin-left: 120px;
+.signup-cont {
+	width: 1500px;
+	height: 180px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: royalblue;
 }
 
 .signup-text-1 {
-	color: #F9FAF8;
+	color: #E5E7EB;
 	font-weight: bold;
 	font-size: 18px;
+	margin-left: 100px;
 }
 
 .signup-text-2 {
-	color: #F9FAF8;
+	color: #E5E7EB;
 	font-size: 16px;
+	margin-left: 100px;
 }
-
-
-
-
 
 .footer-cont {
 	flex-shrink: 0;
 	background-color: #1f2937;
-	height: 57px;
+	height: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
